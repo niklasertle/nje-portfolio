@@ -3,7 +3,6 @@
 # Table of Contents
 
 [Description](#description) -
-[Usage](#usage) - 
 [Links](#links) - 
 [Contact](#contact) -
 [Technologies](#technologies)
@@ -11,10 +10,6 @@
 ## Description
 
 This is a portfolio page for me, that was built using HTML, CSS, and JavaScript.
-
-## Usage
-
-When ready use **'npm start'** into the command line to run the application.
 
 ## Links
 
