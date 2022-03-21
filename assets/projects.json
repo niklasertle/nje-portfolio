@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "project-title": "Get Flexed",
+        "github-repo": "https://github.com/SheylaPopovich/get-flexed",
+        "deployed-link": "https://sheylapopovich.github.io/get-flexed/",
+        "screenshot-path": "./assets/images/get-flexed.JPG",
+        "technology-list": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 2,
+        "project-title": "Get Flexed v2",
+        "github-repo": "https://github.com/LasetteBrown/project-2-get-flexed-v2",
+        "deployed-link": "https://get-flexed.herokuapp.com/",
+        "screenshot-path": "./assets/images/get-flexed-v2.jpg",
+        "technology-list": ["HTML", "CSS", "JavaScript", "NodeJS", "ExpressJS", "SQL"]
+    },
+    {
+        "id": 3,
+        "project-title": "Python Newsfeed",
+        "github-repo": "https://github.com/niklasertle/nje-python-newsfeed",
+        "deployed-link": "https://nje-python-newsfeed.herokuapp.com/",
+        "screenshot-path": "./assets/images/python-newsfeed.jpg",
+        "technology-list": ["HTML", "CSS", "JavaScript", "Python", "Flask", "SQL"]
+    },
+    {
+        "id": 4,
+        "project-title": "Weather Checker",
+        "github-repo": "https://github.com/niklasertle/nje-weather-checker",
+        "deployed-link": "https://niklasertle.github.io/nje-weather-checker/",
+        "screenshot-path": "./assets/images/weather-checker.png",
+        "technology-list": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        "id": 5,
+        "project-title": "Initiation to Execution",
+        "github-repo": "https://github.com/niklasertle/initiation-to-execution",
+        "deployed-link": "https://initiation-to-execution.herokuapp.com/",
+        "screenshot-path": "./assets/images/initiantion-to-execution.gif",
+        "technology-list": ["HTML", "CSS", "JavaScript", "ReactJS", "GraphQL", "NodeJS", "ExpressJS", "MongoDB"]
+    }
+]

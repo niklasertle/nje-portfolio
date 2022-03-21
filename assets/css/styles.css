@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.side-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.side-nav li {
+    width: 10px;
+    height: 10px;
+    background: grey;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.side-nav li:hover, .side-nav li.selected {    background: none;
+    background: none;
+    transform: scale(2);
+}
+
+section {
+    height: 100vh;
+    position: relative;
+}
+
+#hero-image {
+    background-image: url('../images/hero-image.jpg');
+}
+
+#hero-text {
+    background: rgba(0, 0, 0, .4);
+    padding: 5px 50px;
+    color: white;
+    position: absolute;
+    right: 400px;
+    top: 45%;
+}
+
+#about-section {
+    background-image: url('../images/about-image.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-text {
+    background: rgba(0, 0, 0, .4);
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 450px;
+    right: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#skills-section {
+    background-image: url('../images/skills-image.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -25px;
+}
+
+#skills-section h2 {
+    padding-top: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#skills {
+    display: flex;
+    padding: 10px 200px;
+    font-size: 20px;
+}
+
+#skills div {
+    background: rgba(0, 0, 0, .4);
+    margin: auto;
+    padding: 10px;
+}
+
+#projects-section {
+    background-image: url('../images/project-image.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+
+#carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#carousel ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+
+#slide img {
+    display: block;
+    margin-left: 65px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#slide h3 {
+    display: absolute;
+    font-size: 36px;
+    transform: translate(40%, -250px);
+}
+
+#slide h3 span {
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.deployed-link {
+    display: absolute;
+    transform: translate(40%, -250px);
+}
+
+.deployed-link a {
+    font-size: 24px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.github-link {
+    display: absolute;
+    transform: translate(50%, -296px);
+}
+
+.github-link a {
+    font-size: 24px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#slide[data-active] {
+    opacity: 1;
+    z-index: 4;
+    transition-delay: 0ms;
+}
+
+.carousel-button {
+    position: absolute;
+    z-index: 5;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover, .carousel-button:focus {
+    color: white;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.carousel-button:focus {
+    outline: 1px solid black;
+}
+
+#prev {
+    left: 1rem;
+}
+
+#next {
+    right: 5rem;
+}
+
+#contact-footer {
+    background-color: lightblue;
+    color: black;
+    height: 20vh;
+    text-align: center;
+}
+
+#contact-icons {
+    display: flex;
+    padding-top: 60px;
+}
+
+#contact-icons p {
+    margin: auto;
+}
+
+#contact-icons p a {
+    color: black;
+}
